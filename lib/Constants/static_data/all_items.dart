@@ -4,7 +4,11 @@ class AllItems {
       'itemName': 'Rolex',
       'itemCategory': 'Watch',
       'itemPrice': 1200,
-      'itemPic': 'assets/images/offer1.png',
+      'itemPic': [
+        'assets/images/offer1.png',
+        'assets/images/offer2.png',
+        'assets/images/rc1.png'
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
@@ -12,7 +16,11 @@ class AllItems {
       'itemName': 'Daytona',
       'itemCategory': 'Watch',
       'itemPrice': 1200,
-      'itemPic': 'assets/images/watch1.png',
+      'itemPic': [
+        'assets/images/watch1.png',
+        'assets/images/rc2.png',
+        'assets/images/rc3.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
@@ -20,7 +28,11 @@ class AllItems {
       'itemName': 'Datejust',
       'itemCategory': 'Watch',
       'itemPrice': 1200,
-      'itemPic': 'assets/images/watch2.png',
+      'itemPic': [
+        'assets/images/watch1.png',
+        'assets/images/watch2.png',
+        'assets/images/watch3.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
@@ -28,7 +40,11 @@ class AllItems {
       'itemName': 'Stylish',
       'itemCategory': 'Watch',
       'itemPrice': 1200,
-      'itemPic': 'assets/images/watch3.png',
+      'itemPic': [
+        'assets/images/watch3.png',
+        'assets/images/watch4.png',
+        'assets/images/watch1.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
@@ -36,7 +52,11 @@ class AllItems {
       'itemName': 'out-one',
       'itemCategory': 'Watch',
       'itemPrice': 1200,
-      'itemPic': 'assets/images/watch4.png',
+      'itemPic': [
+        'assets/images/watch4.png',
+        'assets/images/watch3.png',
+        'assets/images/watch2.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
@@ -44,7 +64,11 @@ class AllItems {
       'itemName': 'New Jogger',
       'itemCategory': 'Shoes',
       'itemPrice': 5000,
-      'itemPic': 'assets/images/offer2.png',
+      'itemPic': [
+        'assets/images/offer2.png',
+        'assets/images/offer1.png',
+        'assets/images/rc2.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
@@ -52,7 +76,11 @@ class AllItems {
       'itemName': 'Multi Check',
       'itemCategory': 'Shirts',
       'itemPrice': 1350,
-      'itemPic': 'assets/images/rc1.png',
+      'itemPic': [
+        'assets/images/rc1.png',
+        'assets/images/rc2.png',
+        'assets/images/offer2.png',
+      ],
       'isRecommended': false,
       'cartItemCount': 1
     },
@@ -60,7 +88,11 @@ class AllItems {
       'itemName': 'Jeans',
       'itemCategory': 'Pents',
       'itemPrice': 2000,
-      'itemPic': 'assets/images/rc2.png',
+      'itemPic': [
+        'assets/images/rc2.png',
+        'assets/images/rc2.png',
+        'assets/images/rc2.png',
+      ],
       'isRecommended': false,
       'cartItemCount': 1
     },
@@ -68,7 +100,11 @@ class AllItems {
       'itemName': 'Red Aqua',
       'itemCategory': 'Perfume',
       'itemPrice': 7500,
-      'itemPic': 'assets/images/rc3.png',
+      'itemPic': [
+        'assets/images/rc3.png',
+        'assets/images/rc3.png',
+        'assets/images/rc3.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
@@ -76,7 +112,11 @@ class AllItems {
       'itemName': 'Small Bag',
       'itemCategory': 'Handbag',
       'itemPrice': 1800,
-      'itemPic': 'assets/images/rc4.png',
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
@@ -113,52 +153,92 @@ class AllItems {
     {
       'itemName': 'Rolax',
       'itemCategory': 'Watch',
-      'itemPic': 'assets/images/offer1.png',
+      'itemPic': [
+        'assets/images/rc2.png',
+        'assets/images/rc4.png',
+        'assets/images/rc3.png',
+      ],
     },
     {
       'itemName': 'New Jogger',
       'itemCategory': 'Shoes',
-      'itemPic': 'assets/images/offer2.png',
+      'itemPic': [
+        'assets/images/rc1.png',
+        'assets/images/rc3.png',
+        'assets/images/rc4.png',
+      ],
     },
     {
       'itemName': 'Multi Check',
       'itemCategory': 'Shirts',
-      'itemPic': 'assets/images/rc1.png',
+      'itemPic': [
+        'assets/images/rc3.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
     },
     {
       'itemName': 'Jeans',
       'itemCategory': 'Pents',
-      'itemPic': 'assets/images/rc2.png',
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
     },
     {
       'itemName': 'Red Aqua',
       'itemCategory': 'Perfume',
-      'itemPic': 'assets/images/rc3.png',
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
     },
     {
       'itemName': 'Small Bag',
       'itemCategory': 'Handbag',
-      'itemPic': 'assets/images/rc4.png',
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
     },
     {
       'itemName': 'Rolax',
       'itemCategory': 'Watch',
-      'itemPic': 'assets/images/offer1.png',
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
     },
     {
       'itemName': 'New Jogger',
       'itemCategory': 'Shoes',
-      'itemPic': 'assets/images/offer2.png',
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
     },
     {
       'itemName': 'Jeans',
       'itemCategory': 'Pents',
-      'itemPic': 'assets/images/rc2.png',
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
     },
     {
       'itemName': 'Red Aqua',
       'itemCategory': 'Perfume',
-      'itemPic': 'assets/images/rc3.png',
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
     },
   ];
 }

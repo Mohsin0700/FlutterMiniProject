@@ -42,12 +42,14 @@ class _ItemCardBuilderState extends State<ItemCardBuilder> {
               onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const SinglePageScreen())),
+                      builder: (context) => SinglePageScreen(
+                            myItem: recommendedItems[index],
+                          ))),
               child: ItemCard(
                 itemName: recommendedItems[index]['itemName'],
                 itemCategory: recommendedItems[index]['itemCategory'],
                 itemPrice: recommendedItems[index]['itemPrice'].toString(),
-                itemPic: recommendedItems[index]['itemPic'],
+                itemPic: recommendedItems[index]['itemPic'][0],
                 cartItem: recommendedItems[index],
               ),
             );

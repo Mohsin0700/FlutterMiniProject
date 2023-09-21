@@ -20,7 +20,9 @@ class _CartScreenState extends State<CartScreen> {
 
   decreaseItem(i) {
     setState(() {
-      CartItems.cartItems[i]['cartItemCount']--;
+      if (CartItems.cartItems[i]['cartItemCount'] > 0) {
+        CartItems.cartItems[i]['cartItemCount']--;
+      }
     });
   }
 
@@ -45,8 +47,8 @@ class _CartScreenState extends State<CartScreen> {
                                   borderRadius: BorderRadius.circular(15)),
                               child: Image(
                                   width: 75,
-                                  image: AssetImage(
-                                      CartItems.cartItems[index]['itemPic'])),
+                                  image: AssetImage(CartItems.cartItems[index]
+                                      ['itemPic'][0])),
                             ),
                             title: Text(CartItems.cartItems[index]['itemName']),
                             subtitle: Text(CartItems.cartItems[index]

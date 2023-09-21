@@ -19,7 +19,7 @@ class CategoryItems extends StatelessWidget {
             return CategoryCard(
                 itemName: AllItems.CategoryItems[index]['itemName'],
                 itemCategory: AllItems.CategoryItems[index]['itemCategory'],
-                itemPic: AllItems.CategoryItems[index]['itemPic']);
+                itemPic: AllItems.CategoryItems[index]['itemPic'][0]);
           }),
     );
   }

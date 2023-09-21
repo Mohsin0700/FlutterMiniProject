@@ -3,16 +3,24 @@ class CartItems {
     {
       'itemName': 'Rolax',
       'itemCategory': 'Watch',
-      'itemPrice': '1200',
-      'itemPic': 'assets/images/offer1.png',
+      'itemPrice': 1200,
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
     {
       'itemName': 'New Jogger',
       'itemCategory': 'Shoes',
-      'itemPrice': '5000',
-      'itemPic': 'assets/images/offer2.png',
+      'itemPrice': 1350,
+      'itemPic': [
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+        'assets/images/rc4.png',
+      ],
       'isRecommended': true,
       'cartItemCount': 1
     },
