@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mini_project/Constants/app_colors.dart';
 import 'package:mini_project/Constants/static_data/cart.dart';
+import 'package:mini_project/screens/home_screen/widgets/header/header.dart';
 
 class ItemCard extends StatefulWidget {
   final String itemName;
@@ -24,6 +25,9 @@ class _ItemCardState extends State<ItemCard> {
   addItem(item) {
     setState(() {
       CartItems.cartItems.add(item);
+    });
+    setState(() {
+      const MyHeader();
     });
   }
 
